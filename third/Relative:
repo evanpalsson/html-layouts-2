@@ -1,0 +1,8 @@
+Relative:
+	- top, bottom, right, left
+
+Absolute:
+	- top, bottom, right, left
+	- Relative to nearest PARENT element who has a positioning of relative
+
+	

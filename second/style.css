@@ -1,0 +1,83 @@
+* {
+	position: relative;
+}
+
+html, body {
+	height: 100%;
+	background: rgba(216, 216, 216, 1);
+	margin: 0;
+}
+
+.background {	
+	background: rgba(255, 255, 255, 1);
+}
+
+.topBox {
+	min-height: 250px;
+	width: 750px;
+	margin: 25px;
+	padding: 15px;
+}
+
+p {
+	font-family: sans-serif;
+	line-height: 25px;
+}
+
+.mainText {
+	padding: 5px;
+}
+
+.clickText {
+	color: rgba(255, 255, 255, 1);
+	font-family: Copperplate Gothic Light;
+	font-size: 22px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.lClick {
+	height: 50px;
+	width: 125px;
+	margin-left: 25px;
+	background: rgba(207, 14, 26, 1);
+	float: left;
+	padding-top: 25px;
+}
+
+.rClick {
+	height: 50px;
+	width: 125px;
+	margin-left: 25px;
+	background: rgba(74, 144, 226, 1);
+	float: left;
+	padding-top: 25px;
+}
+
+.bottomBox {
+	min-height: 500px;
+	max-height: 700px;
+	width: 750px;
+	margin: 25px;
+	padding: 15px;
+}
+
+.pic {
+	height: 250px;
+	width: 100%;
+	background: url("http://cdn.baconipsum.com/theme/images/bacon-ipsum-banner1.jpg");
+}
+
+.footer {
+	max-height: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	background: rgba(51, 51, 51, 1);
+}
+
+pB {
+	color: rgba(255, 255, 255, 1);
+	display: inline-block;
+	padding: 20px;
+}
