@@ -65,13 +65,13 @@
 				<p>/**</p>
 				<p> * @jsx React.DOM</p>
 				<p> */</p>
-  
+  				<br>
 				<p>var HelloWorld = React.createClass({</p>
 				<p>  render : function() {</p>
 				<p>    return <div>hello world!</div>;</p>
 				<p>  }</p>
 				<p>});</p>
-
+				<br>
 				<p>React.renderComponent(</p>
 				<p>  <HelloWorld />,</p>
 				<p>  document.body</p>
@@ -88,7 +88,7 @@
 				<p>    });</p>
 				<p>  }</p>
 				<p>});</p>
-
+				<br>
 				<p>React.renderComponent(</p>
 				<p>  HelloWorld({}),</p>
 				<p>  document.body</p>
@@ -120,22 +120,20 @@
 			<p>Another common question is how to return multiple components from within a single <strong>render</strong>() method. The trick is that only one component can be returned, at a time. To return multiple, they must be wrapped within a container element. This is because of how the JS methods work. Let’s look at some JSX code:</p>
 
 			<div class="box">
-				<pre>
-				/**
-				 * @jsx React.DOM
-				 */
+				<p>/**</p>
+				<p> * @jsx React.DOM</p>
+				<p> */</p>
 				<br>
-				var HelloWorld = React.createClass({
-				  render : function() {
-				    return <span>hello</span><span> world!</span>;
-				  }
-				});
+				<p>var HelloWorld = React.createClass({</p>
+				<p>  render : function() {</p>
+				<p>    return <span>hello</span><span> world!</span>;</p>
+				<p>  }</p>
+				<p>});</p>
 				<br>
-				React.renderComponent(
-				  <HelloWorld />,
-				  document.body
-				);
-				</pre>
+				<p>React.renderComponent(</p>
+				<p>  <HelloWorld />,</p>
+				<p>  document.body</p>
+				<p>);</p>
 			</div>
 
 			<p>This looks harmless enough. Instead of returning a single span, we want to return two. Look back to the previous JS implementation to see if you can figure out what’s wrong with this.</p>
